@@ -27,7 +27,7 @@ function renderList(el, posts) {
   el.innerHTML = listItems(posts);
 }
 
-const CTF_GROUPS = ["TryHackMe", "Hack The Box"];
+const CTF_GROUPS = ["Hack The Box", "TryHackMe"];
 
 function renderCtfs(el, posts) {
   const names = CTF_GROUPS.slice();
