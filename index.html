@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>0xEnzoSantana</title>
+  <meta name="description" content="0xEnzoSantana: writeups de CTF, artigos e redes">
+  <link rel="icon" type="image/gif" href="favicon.gif">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+
+  <header class="hero">
+    <div class="art">
+      <canvas id="snorlax" width="600" height="640" role="img" aria-label="snorlax em ascii"></canvas>
+    </div>
+
+    <h1 class="name">0xEnzoSantana</h1>
+
+    <nav class="tabs" role="tablist" aria-label="seções">
+      <button role="tab" data-tab="ctfs" aria-selected="false">ctfs</button>
+      <button role="tab" data-tab="sobre" aria-selected="true">sobre</button>
+      <button role="tab" data-tab="artigos" aria-selected="false">artigos</button>
+      <button role="tab" data-tab="curriculo" aria-selected="false">currículo</button>
+      <button role="tab" data-tab="redes-sociais" aria-selected="false">redes-sociais</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tab-sobre" class="panel about" role="tabpanel">
+      <p>Opa, tudo baum? Enzo aqui (0xEnzoSantana em tudo).<br>
+      Uso esse espaço pra postar umas coisas que faço, principalmente CTFs :p<br>
+      Sou entusiasta de segurança ofensiva e de vez em quando faço uns bug bountys.<br>
+      No momento tô mais em web, redes e Active Directory, mas estudo o que der vontade.<br>
+      Fica à vontade pra mandar qualquer coisa.</p>
+    </section>
+
+    <section id="tab-ctfs" class="panel" role="tabpanel" hidden>
+      <div id="list-ctf"></div>
+    </section>
+
+    <section id="tab-artigos" class="panel" role="tabpanel" hidden>
+      <ul class="posts" id="list-artigo"></ul>
+    </section>
+
+    <section id="tab-redes-sociais" class="panel" role="tabpanel" hidden>
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/0xenzosantana" target="_blank" rel="noopener noreferrer">LinkedIn</a><span>/in/0xenzosantana</span></li>
+        <li><a href="https://github.com/0xEnzoSantana" target="_blank" rel="noopener noreferrer">GitHub</a><span>0xEnzoSantana</span></li>
+        <li><a href="https://app.hackthebox.com/users/1411577" target="_blank" rel="noopener noreferrer">Hack The Box</a><span>0xEnzoSantana</span></li>
+        <li><a href="https://tryhackme.com/p/0xEnzoSantana" target="_blank" rel="noopener noreferrer">TryHackMe</a><span>0xEnzoSantana</span></li>
+        <li><a href="https://bugcrowd.com/0xenzosantana" target="_blank" rel="noopener noreferrer">Bugcrowd</a><span>0xEnzoSantana</span></li>
+        <li><a href="https://medium.com/@0xenzosantana" target="_blank" rel="noopener noreferrer">Medium</a><span>@0xenzosantana</span></li>
+      </ul>
+    </section>
+
+    <section id="tab-curriculo" class="panel cv" role="tabpanel" hidden>
+      <p class="muted">meu currículo</p>
+      <div class="cv-links">
+        <a class="btn cv-link" href="curriculo/curriculo.pdf" download="Curriculo-0xEnzoSantana.pdf">baixar pdf</a>
+        <a class="btn cv-link" href="curriculo/curriculo.docx" download="Curriculo-0xEnzoSantana.docx">baixar word</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="snorlax.js"></script>
+  <script src="posts/index.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
