@@ -2,7 +2,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "thm-foolsm8-level1",
-    "title": "THM-FoolsM8_Level1",
+    "title": "THM - FoolsM8_Level1",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/tryhackme/THM-FoolsM8_Level1 3973d7232b2a80e29ee8e812ff1f2135.md",
@@ -12,7 +12,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "thm-madness",
-    "title": "THM -madness",
+    "title": "THM - madness",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/tryhackme/THM -madness 3953d7232b2a80e7aff5d82607d1ccea.md",
@@ -22,7 +22,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "htb-orion",
-    "title": "HTB-orion",
+    "title": "HTB - orion",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/hackthebox/HTB-orion 38a3d7232b2a80d89d09cb9196e35e54.md",
@@ -32,7 +32,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "htb-reactor",
-    "title": "HTB-Reactor",
+    "title": "HTB - Reactor",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/hackthebox/HTB-Reactor 3733d7232b2a80028541d8d898d2a193.md",
@@ -42,7 +42,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "htb-connected",
-    "title": "HTB-Connected",
+    "title": "HTB - Connected",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/hackthebox/HTB-Connected 37d3d7232b2a80c89748f05d5ce8ecc2.md",
@@ -52,7 +52,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "htb-cohort",
-    "title": "HTB-Cohort",
+    "title": "HTB - Cohort",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/hackthebox/HTB-Cohort 3b53d7232b2a80ddb9a2f6657afaf4b8.md",
@@ -62,7 +62,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "htb-cap",
-    "title": "HTB-Cap",
+    "title": "HTB - Cap",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/hackthebox/HTB-Cap 3513d7232b2a801985d5d57374b08e77.md",
@@ -72,7 +72,7 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "htb-devhub",
-    "title": "HTB — DevHub",
+    "title": "HTB - DevHub",
     "date": "2026-10-23",
     "tags": [],
     "path": "posts/ctfs/hackthebox/HTB — DevHub 3c63d7232b2a80a48efff942914a1a06.md",
@@ -172,10 +172,20 @@ const POSTS = [
   {
     "type": "ctf",
     "slug": "htb-perfection",
-    "title": "HTB-Perfection",
+    "title": "HTB - Perfection",
     "date": "2026-10-11",
     "tags": [],
     "path": "posts/ctfs/hackthebox/HTB-Perfection 31a3b58070f446618919db53911bc501.md",
+    "skip": 1,
+    "group": "Hack The Box"
+  },
+ {
+    "type": "ctf",
+    "slug": "htb-layover",
+    "title": "HTB - Layover",
+    "date": "2026-10-11",
+    "tags": [],
+    "path": "posts/ctfs/hackthebox/HTB-layover%203e83d7232b2a807ca013dedce99103ef.md",
     "skip": 1,
     "group": "Hack The Box"
   }
