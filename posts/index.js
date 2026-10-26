@@ -35,7 +35,7 @@ const POSTS = [
     "title": "HTB - Reactor",
     "date": "2026-10-23",
     "tags": [],
-    "path": "posts/ctfs/hackthebox/HTB-layover 3e83d7232b2a807ca013dedce99103ef.md",
+    "path": "posts/ctfs/hackthebox/HTB-Reactor 3733d7232b2a80028541d8d898d2a193.md",
     "skip": 1,
     "group": "Hack The Box"
   },
@@ -185,7 +185,7 @@ const POSTS = [
     "title": "HTB - Layover",
     "date": "2026-10-11",
     "tags": [],
-    "path": "posts/ctfs/hackthebox/HTB-layover 203e83d7232b2a807ca013dedce99103ef.md",
+    "path": "posts/ctfs/hackthebox/HTB-layover 3e83d7232b2a807ca013dedce99103ef.md",
     "skip": 1,
     "group": "Hack The Box"
   }
